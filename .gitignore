@@ -1,0 +1,27 @@
+# Firebase keys
+serviceAccountKey.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+ENV/
+
+# System / OS
+.DS_Store
+Thumbs.db
+
+# Editor configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Node modules
+node_modules/
+dist/
