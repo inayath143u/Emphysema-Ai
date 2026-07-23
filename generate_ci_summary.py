@@ -1,3 +1,5 @@
+# generate_ci_summary.py
+# Updated load test summary metrics
 import os
 import sys
 
