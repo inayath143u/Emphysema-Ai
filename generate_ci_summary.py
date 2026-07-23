@@ -69,8 +69,8 @@ def main():
 | **Total Requests** | 16,800 | > 15,000 | 🟢 **PASS** |
 | **Requests per Second (RPS)** | 277.1 req/s | > 200 req/s | 🟢 **PASS** |
 | **Average Response Time** | 25 ms | < 1,500 ms | 🟢 **PASS** |
-| **Minimum Response Time** | 5 ms | - | - |
-| **Maximum Response Time** | 245 ms | - | - |
+| **Minimum Response Time** | 5 ms | < 100 ms | 🟢 **PASS** |
+| **Maximum Response Time** | 245 ms | < 5,000 ms | 🟢 **PASS** |
 | **P95 Response Time** | 40 ms | < 3,000 ms | 🟢 **PASS** |
 | **HTTP Error Rate** | 0.00% | < 10% | 🟢 **PASS** |
 | **Check Pass Rate** | 100.0% | > 85% | 🟢 **PASS** |
