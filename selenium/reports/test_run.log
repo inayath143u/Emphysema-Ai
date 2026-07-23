@@ -9,3 +9,797 @@
 2026-07-17 11:24:00,428 - LoginPage - INFO - Final detected current page: login
 2026-07-17 11:24:00,450 - Conftest - INFO - Test 'test_app_load_and_login_detection' results logged to Excel database (status=PASSED).
 2026-07-17 11:24:00,450 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-17 11:59:45,436 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-17 11:59:50,701 - LoginPage - INFO - Attempting login with email: patient@test.com
+2026-07-17 12:00:00,849 - LoginPage - ERROR - Element with locator ('id', 'auth-email') not found within 10s
+2026-07-17 12:00:00,850 - LoginPage - ERROR - Failed to send keys to element with locator ('id', 'auth-email'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d80+15600]
+	chromedriver!(No symbol) [0x7ff65af2594d]
+	chromedriver!(No symbol) [0x7ff65af808e9]
+	chromedriver!(No symbol) [0x7ff65af80bec]
+	chromedriver!(No symbol) [0x7ff65afd1437]
+	chromedriver!(No symbol) [0x7ff65afce01b]
+	chromedriver!(No symbol) [0x7ff65af72e6c]
+	chromedriver!(No symbol) [0x7ff65af73d93]
+	chromedriver!GetHandleVerifier [0x7ff65b9b6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff65b9b0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff65b9d5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff65b3edace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff65b3f661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff65b3dab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff65b3dad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff65b3bd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffc5d97e957+17]
+	ntdll!RtlUserThreadStart [0x7ffc5ef4ad6c+2c]
+
+2026-07-17 12:00:00,969 - Conftest - ERROR - Test 'test_TC016_dashboard_patient_greeting' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC016_dashboard_patient_greeting.png
+2026-07-17 12:00:00,991 - Conftest - INFO - Test 'test_TC016_dashboard_patient_greeting' results logged to Excel database (status=FAILED).
+2026-07-17 12:00:00,991 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-17 12:00:03,092 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-17 12:00:06,995 - LoginPage - INFO - Attempting login with email: patient@test.com
+2026-07-17 12:00:17,135 - LoginPage - ERROR - Element with locator ('id', 'auth-email') not found within 10s
+2026-07-17 12:00:17,135 - LoginPage - ERROR - Failed to send keys to element with locator ('id', 'auth-email'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d80+15600]
+	chromedriver!(No symbol) [0x7ff65af2594d]
+	chromedriver!(No symbol) [0x7ff65af808e9]
+	chromedriver!(No symbol) [0x7ff65af80bec]
+	chromedriver!(No symbol) [0x7ff65afd1437]
+	chromedriver!(No symbol) [0x7ff65afce01b]
+	chromedriver!(No symbol) [0x7ff65af72e6c]
+	chromedriver!(No symbol) [0x7ff65af73d93]
+	chromedriver!GetHandleVerifier [0x7ff65b9b6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff65b9b0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff65b9d5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff65b3edace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff65b3f661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff65b3dab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff65b3dad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff65b3bd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffc5d97e957+17]
+	ntdll!RtlUserThreadStart [0x7ffc5ef4ad6c+2c]
+
+2026-07-17 12:00:17,176 - Conftest - ERROR - Test 'test_TC017_last_diagnostic_card' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC017_last_diagnostic_card.png
+2026-07-17 12:00:17,206 - Conftest - INFO - Test 'test_TC017_last_diagnostic_card' results logged to Excel database (status=FAILED).
+2026-07-17 12:00:17,207 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-17 12:00:19,309 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-17 12:00:25,087 - LoginPage - INFO - Attempting login with email: patient@test.com
+2026-07-17 12:00:35,245 - LoginPage - ERROR - Element with locator ('id', 'auth-email') not found within 10s
+2026-07-17 12:00:35,246 - LoginPage - ERROR - Failed to send keys to element with locator ('id', 'auth-email'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d80+15600]
+	chromedriver!(No symbol) [0x7ff65af2594d]
+	chromedriver!(No symbol) [0x7ff65af808e9]
+	chromedriver!(No symbol) [0x7ff65af80bec]
+	chromedriver!(No symbol) [0x7ff65afd1437]
+	chromedriver!(No symbol) [0x7ff65afce01b]
+	chromedriver!(No symbol) [0x7ff65af72e6c]
+	chromedriver!(No symbol) [0x7ff65af73d93]
+	chromedriver!GetHandleVerifier [0x7ff65b9b6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff65b9b0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff65b9d5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff65b3edace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff65b3f661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff65b3dab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff65b3dad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff65b3bd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffc5d97e957+17]
+	ntdll!RtlUserThreadStart [0x7ffc5ef4ad6c+2c]
+
+2026-07-17 12:00:35,282 - Conftest - ERROR - Test 'test_TC018_quick_services_presence' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC018_quick_services_presence.png
+2026-07-17 12:00:35,309 - Conftest - INFO - Test 'test_TC018_quick_services_presence' results logged to Excel database (status=FAILED).
+2026-07-17 12:00:35,310 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-17 12:00:37,399 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-17 12:00:42,722 - LoginPage - INFO - Attempting login with email: patient@test.com
+2026-07-17 12:00:52,851 - LoginPage - ERROR - Element with locator ('id', 'auth-email') not found within 10s
+2026-07-17 12:00:52,851 - LoginPage - ERROR - Failed to send keys to element with locator ('id', 'auth-email'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d80+15600]
+	chromedriver!(No symbol) [0x7ff65af2594d]
+	chromedriver!(No symbol) [0x7ff65af808e9]
+	chromedriver!(No symbol) [0x7ff65af80bec]
+	chromedriver!(No symbol) [0x7ff65afd1437]
+	chromedriver!(No symbol) [0x7ff65afce01b]
+	chromedriver!(No symbol) [0x7ff65af72e6c]
+	chromedriver!(No symbol) [0x7ff65af73d93]
+	chromedriver!GetHandleVerifier [0x7ff65b9b6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff65b9b0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff65b9d5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff65b3edace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff65b3f661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff65b3dab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff65b3dad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff65b3bd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffc5d97e957+17]
+	ntdll!RtlUserThreadStart [0x7ffc5ef4ad6c+2c]
+
+2026-07-17 12:00:52,883 - Conftest - ERROR - Test 'test_TC019_navigation_bottom_bar_links' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC019_navigation_bottom_bar_links.png
+2026-07-17 12:00:52,907 - Conftest - INFO - Test 'test_TC019_navigation_bottom_bar_links' results logged to Excel database (status=FAILED).
+2026-07-17 12:00:52,907 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-17 12:00:54,998 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-17 12:01:00,750 - LoginPage - INFO - Attempting login with email: patient@test.com
+2026-07-17 12:01:11,019 - LoginPage - ERROR - Element with locator ('id', 'auth-email') not found within 10s
+2026-07-17 12:01:11,020 - LoginPage - ERROR - Failed to send keys to element with locator ('id', 'auth-email'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d80+15600]
+	chromedriver!(No symbol) [0x7ff65af2594d]
+	chromedriver!(No symbol) [0x7ff65af808e9]
+	chromedriver!(No symbol) [0x7ff65af80bec]
+	chromedriver!(No symbol) [0x7ff65afd1437]
+	chromedriver!(No symbol) [0x7ff65afce01b]
+	chromedriver!(No symbol) [0x7ff65af72e6c]
+	chromedriver!(No symbol) [0x7ff65af73d93]
+	chromedriver!GetHandleVerifier [0x7ff65b9b6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff65b9b0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff65b9d5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff65b3edace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff65b3f661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff65b3dab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff65b3dad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff65b3bd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffc5d97e957+17]
+	ntdll!RtlUserThreadStart [0x7ffc5ef4ad6c+2c]
+
+2026-07-17 12:01:11,065 - Conftest - ERROR - Test 'test_TC020_TC023_quick_links_navigation[TC020]' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC020_TC023_quick_links_navigation[TC020].png
+2026-07-17 12:01:11,092 - Conftest - INFO - Test 'test_TC020_TC023_quick_links_navigation[TC020]' results logged to Excel database (status=FAILED).
+2026-07-17 12:01:11,092 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-17 12:01:13,205 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-17 12:01:17,284 - LoginPage - INFO - Attempting login with email: patient@test.com
+2026-07-17 12:01:27,522 - LoginPage - ERROR - Element with locator ('id', 'auth-email') not found within 10s
+2026-07-17 12:01:27,523 - LoginPage - ERROR - Failed to send keys to element with locator ('id', 'auth-email'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d80+15600]
+	chromedriver!(No symbol) [0x7ff65af2594d]
+	chromedriver!(No symbol) [0x7ff65af808e9]
+	chromedriver!(No symbol) [0x7ff65af80bec]
+	chromedriver!(No symbol) [0x7ff65afd1437]
+	chromedriver!(No symbol) [0x7ff65afce01b]
+	chromedriver!(No symbol) [0x7ff65af72e6c]
+	chromedriver!(No symbol) [0x7ff65af73d93]
+	chromedriver!GetHandleVerifier [0x7ff65b9b6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff65b9b0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff65b9d5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff65b3edace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff65b3f661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff65b3dab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff65b3dad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff65b3bd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffc5d97e957+17]
+	ntdll!RtlUserThreadStart [0x7ffc5ef4ad6c+2c]
+
+2026-07-17 12:01:27,571 - Conftest - ERROR - Test 'test_TC020_TC023_quick_links_navigation[TC021]' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC020_TC023_quick_links_navigation[TC021].png
+2026-07-17 12:01:27,593 - Conftest - INFO - Test 'test_TC020_TC023_quick_links_navigation[TC021]' results logged to Excel database (status=FAILED).
+2026-07-17 12:01:27,593 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-17 12:01:29,682 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-17 12:01:34,389 - LoginPage - INFO - Attempting login with email: patient@test.com
+2026-07-17 12:01:44,642 - LoginPage - ERROR - Element with locator ('id', 'auth-email') not found within 10s
+2026-07-17 12:01:44,643 - LoginPage - ERROR - Failed to send keys to element with locator ('id', 'auth-email'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d80+15600]
+	chromedriver!(No symbol) [0x7ff65af2594d]
+	chromedriver!(No symbol) [0x7ff65af808e9]
+	chromedriver!(No symbol) [0x7ff65af80bec]
+	chromedriver!(No symbol) [0x7ff65afd1437]
+	chromedriver!(No symbol) [0x7ff65afce01b]
+	chromedriver!(No symbol) [0x7ff65af72e6c]
+	chromedriver!(No symbol) [0x7ff65af73d93]
+	chromedriver!GetHandleVerifier [0x7ff65b9b6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff65b9b0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff65b9d5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff65b3edace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff65b3f661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff65b3dab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff65b3dad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff65b3bd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffc5d97e957+17]
+	ntdll!RtlUserThreadStart [0x7ffc5ef4ad6c+2c]
+
+2026-07-17 12:01:44,679 - Conftest - ERROR - Test 'test_TC020_TC023_quick_links_navigation[TC022]' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC020_TC023_quick_links_navigation[TC022].png
+2026-07-17 12:01:44,702 - Conftest - INFO - Test 'test_TC020_TC023_quick_links_navigation[TC022]' results logged to Excel database (status=FAILED).
+2026-07-17 12:01:44,805 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-17 12:04:18,040 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-17 12:04:23,318 - Conftest - ERROR - Test 'test_TC016_dashboard_patient_greeting' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC016_dashboard_patient_greeting.png
+2026-07-17 12:04:23,347 - Conftest - INFO - Test 'test_TC016_dashboard_patient_greeting' results logged to Excel database (status=FAILED).
+2026-07-17 12:04:23,347 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-17 12:04:25,450 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-17 12:04:37,491 - Conftest - ERROR - Test 'test_TC017_last_diagnostic_card' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC017_last_diagnostic_card.png
+2026-07-17 12:04:37,516 - Conftest - INFO - Test 'test_TC017_last_diagnostic_card' results logged to Excel database (status=FAILED).
+2026-07-17 12:04:37,516 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-17 12:04:39,627 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-17 12:04:49,790 - Conftest - ERROR - Test 'test_TC018_quick_services_presence' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC018_quick_services_presence.png
+2026-07-17 12:04:49,814 - Conftest - INFO - Test 'test_TC018_quick_services_presence' results logged to Excel database (status=FAILED).
+2026-07-17 12:04:49,815 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-17 12:04:51,930 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-17 12:05:08,246 - Conftest - ERROR - Test 'test_TC019_navigation_bottom_bar_links' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC019_navigation_bottom_bar_links.png
+2026-07-17 12:05:08,349 - Conftest - INFO - Test 'test_TC019_navigation_bottom_bar_links' results logged to Excel database (status=FAILED).
+2026-07-17 12:05:08,351 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-17 12:05:10,745 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-17 12:05:24,180 - DashboardPage - INFO - Clicking service: upload
+2026-07-17 12:05:34,524 - DashboardPage - ERROR - Failed to click element with locator ('id', 'srv-upload'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d80+15600]
+	chromedriver!(No symbol) [0x7ff65af2594d]
+	chromedriver!(No symbol) [0x7ff65af808e9]
+	chromedriver!(No symbol) [0x7ff65af80bec]
+	chromedriver!(No symbol) [0x7ff65afd1437]
+	chromedriver!(No symbol) [0x7ff65afce01b]
+	chromedriver!(No symbol) [0x7ff65af72e6c]
+	chromedriver!(No symbol) [0x7ff65af73d93]
+	chromedriver!GetHandleVerifier [0x7ff65b9b6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff65b9b0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff65b9d5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff65b3edace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff65b3f661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff65b3dab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff65b3dad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff65b3bd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffc5d97e957+17]
+	ntdll!RtlUserThreadStart [0x7ffc5ef4ad6c+2c]
+
+2026-07-17 12:05:34,606 - Conftest - ERROR - Test 'test_TC020_TC023_quick_links_navigation[TC020]' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC020_TC023_quick_links_navigation[TC020].png
+2026-07-17 12:05:34,640 - Conftest - INFO - Test 'test_TC020_TC023_quick_links_navigation[TC020]' results logged to Excel database (status=FAILED).
+2026-07-17 12:05:34,641 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-17 12:05:36,903 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-17 12:05:42,632 - DashboardPage - INFO - Clicking service: exercises
+2026-07-17 12:05:52,663 - DashboardPage - ERROR - Failed to click element with locator ('id', 'srv-exercises'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff65b3d0d80+15600]
+	chromedriver!(No symbol) [0x7ff65af2594d]
+	chromedriver!(No symbol) [0x7ff65af808e9]
+	chromedriver!(No symbol) [0x7ff65af80bec]
+	chromedriver!(No symbol) [0x7ff65afd1437]
+	chromedriver!(No symbol) [0x7ff65afce01b]
+	chromedriver!(No symbol) [0x7ff65af72e6c]
+	chromedriver!(No symbol) [0x7ff65af73d93]
+	chromedriver!GetHandleVerifier [0x7ff65b9b6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff65b9b0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff65b9d5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff65b3edace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff65b3f661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff65b3dab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff65b3dad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff65b3bd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffc5d97e957+17]
+	ntdll!RtlUserThreadStart [0x7ffc5ef4ad6c+2c]
+
+2026-07-17 12:05:52,804 - Conftest - ERROR - Test 'test_TC020_TC023_quick_links_navigation[TC021]' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC020_TC023_quick_links_navigation[TC021].png
+2026-07-17 12:05:52,919 - Conftest - INFO - Test 'test_TC020_TC023_quick_links_navigation[TC021]' results logged to Excel database (status=FAILED).
+2026-07-17 12:05:52,958 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:21:55,811 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:23:44,427 - Conftest - ERROR - Test 'test_TC016_dashboard_patient_greeting' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC016_dashboard_patient_greeting.png
+2026-07-23 18:23:44,450 - Conftest - INFO - Test 'test_TC016_dashboard_patient_greeting' results logged to Excel database (status=FAILED).
+2026-07-23 18:23:44,451 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:23:46,579 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:24:11,395 - Conftest - ERROR - Test 'test_TC017_last_diagnostic_card' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC017_last_diagnostic_card.png
+2026-07-23 18:24:11,424 - Conftest - INFO - Test 'test_TC017_last_diagnostic_card' results logged to Excel database (status=FAILED).
+2026-07-23 18:24:11,424 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:24:13,559 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:24:28,644 - Conftest - ERROR - Test 'test_TC018_quick_services_presence' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC018_quick_services_presence.png
+2026-07-23 18:24:28,676 - Conftest - INFO - Test 'test_TC018_quick_services_presence' results logged to Excel database (status=FAILED).
+2026-07-23 18:24:28,677 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:24:30,801 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:24:47,275 - Conftest - ERROR - Test 'test_TC019_navigation_bottom_bar_links' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC019_navigation_bottom_bar_links.png
+2026-07-23 18:24:47,303 - Conftest - INFO - Test 'test_TC019_navigation_bottom_bar_links' results logged to Excel database (status=FAILED).
+2026-07-23 18:24:47,303 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:24:49,413 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:24:56,106 - DashboardPage - INFO - Clicking service: upload
+2026-07-23 18:25:06,275 - DashboardPage - ERROR - Failed to click element with locator ('id', 'srv-upload'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:25:06,322 - Conftest - ERROR - Test 'test_TC020_TC023_quick_links_navigation[TC020]' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC020_TC023_quick_links_navigation[TC020].png
+2026-07-23 18:25:06,363 - Conftest - INFO - Test 'test_TC020_TC023_quick_links_navigation[TC020]' results logged to Excel database (status=FAILED).
+2026-07-23 18:25:06,363 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:25:08,480 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:25:14,916 - Conftest - INFO - Initializing Chrome WebDriver (headless=False)...
+2026-07-23 18:25:15,479 - DashboardPage - INFO - Clicking service: exercises
+2026-07-23 18:25:25,648 - DashboardPage - ERROR - Failed to click element with locator ('id', 'srv-exercises'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:25:25,690 - Conftest - ERROR - Test 'test_TC020_TC023_quick_links_navigation[TC021]' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC020_TC023_quick_links_navigation[TC021].png
+2026-07-23 18:25:25,718 - Conftest - INFO - Test 'test_TC020_TC023_quick_links_navigation[TC021]' results logged to Excel database (status=FAILED).
+2026-07-23 18:25:25,719 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:25:27,830 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:25:28,246 - Conftest - ERROR - Test 'test_TC016_dashboard_patient_greeting' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC016_dashboard_patient_greeting.png
+2026-07-23 18:25:28,281 - Conftest - INFO - Test 'test_TC016_dashboard_patient_greeting' results logged to Excel database (status=FAILED).
+2026-07-23 18:25:28,281 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:25:45,174 - DashboardPage - INFO - Clicking service: medication
+2026-07-23 18:25:55,340 - DashboardPage - ERROR - Failed to click element with locator ('id', 'srv-medication'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:25:55,371 - Conftest - ERROR - Test 'test_TC020_TC023_quick_links_navigation[TC022]' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC020_TC023_quick_links_navigation[TC022].png
+2026-07-23 18:25:55,395 - Conftest - INFO - Test 'test_TC020_TC023_quick_links_navigation[TC022]' results logged to Excel database (status=FAILED).
+2026-07-23 18:25:55,396 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:25:57,516 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:26:13,685 - DashboardPage - INFO - Clicking service: hospitals
+2026-07-23 18:26:23,868 - DashboardPage - ERROR - Failed to click element with locator ('id', 'srv-hospitals'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:26:23,904 - Conftest - ERROR - Test 'test_TC020_TC023_quick_links_navigation[TC023]' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC020_TC023_quick_links_navigation[TC023].png
+2026-07-23 18:26:23,935 - Conftest - INFO - Test 'test_TC020_TC023_quick_links_navigation[TC023]' results logged to Excel database (status=FAILED).
+2026-07-23 18:26:23,936 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:26:26,045 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:26:55,149 - DashboardPage - INFO - Running scenario TC024: Verify Doctor Dashboard stats tiles
+2026-07-23 18:26:55,206 - Conftest - INFO - Test 'test_dashboard_and_patient_additional_cases[TC024-Verify Doctor Dashboard stats tiles]' results logged to Excel database (status=PASSED).
+2026-07-23 18:26:55,207 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:26:57,335 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:27:07,803 - DashboardPage - INFO - Running scenario TC025: Verify Doctor today's consultation log table
+2026-07-23 18:27:07,833 - Conftest - INFO - Test 'test_dashboard_and_patient_additional_cases[TC025-Verify Doctor today's consultation log table]' results logged to Excel database (status=PASSED).
+2026-07-23 18:27:07,834 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:27:09,927 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:27:18,580 - DashboardPage - INFO - Running scenario TC026: Add Patient Positive account creation
+2026-07-23 18:27:18,609 - Conftest - INFO - Test 'test_dashboard_and_patient_additional_cases[TC026-Add Patient Positive account creation]' results logged to Excel database (status=PASSED).
+2026-07-23 18:27:18,610 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:27:20,706 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:27:35,912 - Conftest - INFO - Initializing Chrome WebDriver (headless=False)...
+2026-07-23 18:27:39,927 - DashboardPage - INFO - Running scenario TC027: Add Patient Duplicate email check
+2026-07-23 18:27:39,961 - Conftest - INFO - Test 'test_dashboard_and_patient_additional_cases[TC027-Add Patient Duplicate email check]' results logged to Excel database (status=PASSED).
+2026-07-23 18:27:39,962 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:27:42,046 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:27:48,389 - LoginPage - INFO - Attempting login with email: patient@test.com
+2026-07-23 18:27:51,783 - Conftest - ERROR - Test 'test_TC001_successful_patient_login' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC001_successful_patient_login.png
+2026-07-23 18:27:51,816 - Conftest - INFO - Test 'test_TC001_successful_patient_login' results logged to Excel database (status=FAILED).
+2026-07-23 18:27:51,817 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:28:00,296 - DashboardPage - INFO - Running scenario TC028: Add Patient Invalid email format check
+2026-07-23 18:28:00,335 - Conftest - INFO - Test 'test_dashboard_and_patient_additional_cases[TC028-Add Patient Invalid email format check]' results logged to Excel database (status=PASSED).
+2026-07-23 18:28:00,335 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:28:02,438 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:28:07,964 - DashboardPage - INFO - Running scenario TC029: Add Patient Short password warning
+2026-07-23 18:28:07,999 - Conftest - INFO - Test 'test_dashboard_and_patient_additional_cases[TC029-Add Patient Short password warning]' results logged to Excel database (status=PASSED).
+2026-07-23 18:28:08,000 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:28:10,114 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:28:23,644 - DashboardPage - INFO - Running scenario TC030: Add Patient Blank name validation
+2026-07-23 18:28:23,674 - Conftest - INFO - Test 'test_dashboard_and_patient_additional_cases[TC030-Add Patient Blank name validation]' results logged to Excel database (status=PASSED).
+2026-07-23 18:28:23,675 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:28:25,777 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:28:30,959 - DashboardPage - INFO - Running scenario TC031: Add Patient Blank email validation
+2026-07-23 18:28:30,993 - Conftest - INFO - Test 'test_dashboard_and_patient_additional_cases[TC031-Add Patient Blank email validation]' results logged to Excel database (status=PASSED).
+2026-07-23 18:28:30,993 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:28:33,095 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:28:40,513 - DashboardPage - INFO - Running scenario TC032: Add Patient Blank password validation
+2026-07-23 18:28:40,544 - Conftest - INFO - Test 'test_dashboard_and_patient_additional_cases[TC032-Add Patient Blank password validation]' results logged to Excel database (status=PASSED).
+2026-07-23 18:28:40,545 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:28:42,651 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:28:52,464 - DashboardPage - INFO - Running scenario TC033: Add Patient Login redirect link check
+2026-07-23 18:28:52,498 - Conftest - INFO - Test 'test_dashboard_and_patient_additional_cases[TC033-Add Patient Login redirect link check]' results logged to Excel database (status=PASSED).
+2026-07-23 18:28:52,498 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:28:54,621 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:28:57,595 - DashboardPage - INFO - Running scenario TC034: Add Patient Onboarding loaders splash check
+2026-07-23 18:28:57,627 - Conftest - INFO - Test 'test_dashboard_and_patient_additional_cases[TC034-Add Patient Onboarding loaders splash check]' results logged to Excel database (status=PASSED).
+2026-07-23 18:28:57,628 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:28:59,713 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:29:02,905 - DashboardPage - INFO - Running scenario TC035: Add Patient Onboarding skip bypass check
+2026-07-23 18:29:02,937 - Conftest - INFO - Test 'test_dashboard_and_patient_additional_cases[TC035-Add Patient Onboarding skip bypass check]' results logged to Excel database (status=PASSED).
+2026-07-23 18:29:02,938 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:29:05,034 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:29:11,796 - PatientListPage - INFO - Doctor navigating to Review Center / Patient List tab
+2026-07-23 18:29:21,987 - PatientListPage - ERROR - Failed to click element with locator ('css selector', '.sidebar-item[data-tab="patients"]'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:29:22,048 - Conftest - ERROR - Test 'test_TC046_navigate_to_review_center' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC046_navigate_to_review_center.png
+2026-07-23 18:29:22,078 - Conftest - INFO - Test 'test_TC046_navigate_to_review_center' results logged to Excel database (status=FAILED).
+2026-07-23 18:29:22,079 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:29:24,205 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:29:29,901 - PatientListPage - INFO - Doctor navigating to Review Center / Patient List tab
+2026-07-23 18:29:40,066 - PatientListPage - ERROR - Failed to click element with locator ('css selector', '.sidebar-item[data-tab="patients"]'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:29:40,119 - Conftest - ERROR - Test 'test_TC047_review_layout_headers' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC047_review_layout_headers.png
+2026-07-23 18:29:40,155 - Conftest - INFO - Test 'test_TC047_review_layout_headers' results logged to Excel database (status=FAILED).
+2026-07-23 18:29:40,156 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:29:42,282 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:29:51,581 - PatientListPage - INFO - Doctor navigating to Review Center / Patient List tab
+2026-07-23 18:30:01,794 - PatientListPage - ERROR - Failed to click element with locator ('css selector', '.sidebar-item[data-tab="patients"]'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:30:01,833 - Conftest - ERROR - Test 'test_TC048_patient_scan_stats' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC048_patient_scan_stats.png
+2026-07-23 18:30:01,864 - Conftest - INFO - Test 'test_TC048_patient_scan_stats' results logged to Excel database (status=FAILED).
+2026-07-23 18:30:01,865 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:30:03,977 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:30:09,474 - PatientListPage - INFO - Doctor signing off on first flagged lung scan
+2026-07-23 18:30:09,475 - PatientListPage - INFO - Doctor navigating to Review Center / Patient List tab
+2026-07-23 18:30:19,652 - PatientListPage - ERROR - Failed to click element with locator ('css selector', '.sidebar-item[data-tab="patients"]'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:30:19,698 - Conftest - ERROR - Test 'test_TC049_TC050_TC051_sign_off_scan' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC049_TC050_TC051_sign_off_scan.png
+2026-07-23 18:30:19,729 - Conftest - INFO - Test 'test_TC049_TC050_TC051_sign_off_scan' results logged to Excel database (status=FAILED).
+2026-07-23 18:30:19,730 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:30:21,849 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:30:27,746 - PatientListPage - INFO - Doctor signing off on first flagged lung scan
+2026-07-23 18:30:27,746 - PatientListPage - INFO - Doctor navigating to Review Center / Patient List tab
+2026-07-23 18:30:37,959 - PatientListPage - ERROR - Failed to click element with locator ('css selector', '.sidebar-item[data-tab="patients"]'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:30:37,996 - Conftest - ERROR - Test 'test_TC052_sign_off_persistence' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC052_sign_off_persistence.png
+2026-07-23 18:30:38,029 - Conftest - INFO - Test 'test_TC052_sign_off_persistence' results logged to Excel database (status=FAILED).
+2026-07-23 18:30:38,029 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:30:40,201 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:30:42,793 - PatientListPage - INFO - Running scenario TC053: Verify doctor dashboard appointment stats auto update
+2026-07-23 18:30:42,825 - Conftest - INFO - Test 'test_doctor_portal_additional_cases[TC053-Verify doctor dashboard appointment stats auto update]' results logged to Excel database (status=PASSED).
+2026-07-23 18:30:42,826 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:30:44,916 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:30:47,852 - PatientListPage - INFO - Running scenario TC054: Doctor telehealth video consult join call link routing
+2026-07-23 18:30:47,883 - Conftest - INFO - Test 'test_doctor_portal_additional_cases[TC054-Doctor telehealth video consult join call link routing]' results logged to Excel database (status=PASSED).
+2026-07-23 18:30:47,884 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:30:49,976 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:30:53,299 - PatientListPage - INFO - Running scenario TC055: Verify doctor consultations video frame UI feeds overlays
+2026-07-23 18:30:53,335 - Conftest - INFO - Test 'test_doctor_portal_additional_cases[TC055-Verify doctor consultations video frame UI feeds overlays]' results logged to Excel database (status=PASSED).
+2026-07-23 18:30:53,335 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:30:55,433 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:30:59,837 - LoginPage - INFO - Attempting login with email: patient@test.com
+2026-07-23 18:31:10,052 - LoginPage - ERROR - Element with locator ('id', 'auth-email') not found within 10s
+2026-07-23 18:31:10,053 - LoginPage - ERROR - Failed to send keys to element with locator ('id', 'auth-email'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:31:10,112 - Conftest - ERROR - Test 'test_TC001_successful_patient_login' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC001_successful_patient_login.png
+2026-07-23 18:31:10,140 - Conftest - INFO - Test 'test_TC001_successful_patient_login' results logged to Excel database (status=FAILED).
+2026-07-23 18:31:10,141 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:31:12,266 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:31:22,361 - LoginPage - INFO - Attempting login with email: invalidemail
+2026-07-23 18:31:32,556 - LoginPage - ERROR - Element with locator ('id', 'auth-email') not found within 10s
+2026-07-23 18:31:32,556 - LoginPage - ERROR - Failed to send keys to element with locator ('id', 'auth-email'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:31:32,591 - Conftest - ERROR - Test 'test_TC002_TC003_login_validation_errors[TC002]' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC002_TC003_login_validation_errors[TC002].png
+2026-07-23 18:31:32,622 - Conftest - INFO - Test 'test_TC002_TC003_login_validation_errors[TC002]' results logged to Excel database (status=FAILED).
+2026-07-23 18:31:32,622 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:31:34,734 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:31:45,997 - LoginPage - INFO - Attempting login with email: patient@test.com
+2026-07-23 18:31:56,161 - LoginPage - ERROR - Element with locator ('id', 'auth-email') not found within 10s
+2026-07-23 18:31:56,162 - LoginPage - ERROR - Failed to send keys to element with locator ('id', 'auth-email'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:31:56,190 - Conftest - ERROR - Test 'test_TC002_TC003_login_validation_errors[TC003]' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC002_TC003_login_validation_errors[TC003].png
+2026-07-23 18:31:56,224 - Conftest - INFO - Test 'test_TC002_TC003_login_validation_errors[TC003]' results logged to Excel database (status=FAILED).
+2026-07-23 18:31:56,225 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:31:58,355 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:32:14,504 - LoginPage - ERROR - Element with locator ('id', 'auth-email') not found within 10s
+2026-07-23 18:32:14,541 - Conftest - ERROR - Test 'test_TC004_TC005_empty_fields_validation' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC004_TC005_empty_fields_validation.png
+2026-07-23 18:32:14,579 - Conftest - INFO - Test 'test_TC004_TC005_empty_fields_validation' results logged to Excel database (status=FAILED).
+2026-07-23 18:32:14,580 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:32:16,703 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:32:26,515 - LoginPage - INFO - Attempting login with email: patient@test.com
+2026-07-23 18:32:36,779 - LoginPage - ERROR - Element with locator ('id', 'auth-email') not found within 10s
+2026-07-23 18:32:36,779 - LoginPage - ERROR - Failed to send keys to element with locator ('id', 'auth-email'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:32:36,821 - Conftest - ERROR - Test 'test_TC006_incorrect_credentials_error' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC006_incorrect_credentials_error.png
+2026-07-23 18:32:36,852 - Conftest - INFO - Test 'test_TC006_incorrect_credentials_error' results logged to Excel database (status=FAILED).
+2026-07-23 18:32:36,852 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:32:38,973 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:32:48,161 - Conftest - ERROR - Test 'test_TC008_verify_login_ui_elements' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC008_verify_login_ui_elements.png
+2026-07-23 18:32:48,192 - Conftest - INFO - Test 'test_TC008_verify_login_ui_elements' results logged to Excel database (status=FAILED).
+2026-07-23 18:32:48,193 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:32:50,316 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:33:04,590 - LoginPage - ERROR - Element with locator ('id', 'auth-email') not found within 10s
+2026-07-23 18:33:04,651 - Conftest - ERROR - Test 'test_TC009_verify_placeholder_texts' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC009_verify_placeholder_texts.png
+2026-07-23 18:33:04,697 - Conftest - INFO - Test 'test_TC009_verify_placeholder_texts' results logged to Excel database (status=FAILED).
+2026-07-23 18:33:04,697 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:33:06,815 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:33:12,795 - LoginPage - INFO - Navigating to signup screen
+2026-07-23 18:33:23,058 - LoginPage - ERROR - Failed to click element with locator ('id', 'go-signup'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:33:23,114 - Conftest - ERROR - Test 'test_TC010_verify_signup_navigation_link' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC010_verify_signup_navigation_link.png
+2026-07-23 18:33:23,150 - Conftest - INFO - Test 'test_TC010_verify_signup_navigation_link' results logged to Excel database (status=FAILED).
+2026-07-23 18:33:23,151 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:33:25,280 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:33:29,283 - LoginPage - INFO - Attempting login with email: patient@test.com
+2026-07-23 18:33:39,550 - LoginPage - ERROR - Element with locator ('id', 'auth-email') not found within 10s
+2026-07-23 18:33:39,550 - LoginPage - ERROR - Failed to send keys to element with locator ('id', 'auth-email'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63f480d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff63f480d80+15600]
+	chromedriver!(No symbol) [0x7ff63efd594d]
+	chromedriver!(No symbol) [0x7ff63f0308e9]
+	chromedriver!(No symbol) [0x7ff63f030bec]
+	chromedriver!(No symbol) [0x7ff63f081437]
+	chromedriver!(No symbol) [0x7ff63f07e01b]
+	chromedriver!(No symbol) [0x7ff63f022e6c]
+	chromedriver!(No symbol) [0x7ff63f023d93]
+	chromedriver!GetHandleVerifier [0x7ff63fa66431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff63fa60a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff63fa85865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff63f49dace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff63f4a661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff63f48ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff63f48ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff63f46d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffab151e957+17]
+	ntdll!RtlUserThreadStart [0x7ffab29cad6c+2c]
+
+2026-07-23 18:33:39,618 - Conftest - ERROR - Test 'test_TC011_patient_logout_via_profile' FAILED. Screenshot saved to: C:\Users\g\Downloads\Web application01\selenium\screenshots\test_TC011_patient_logout_via_profile.png
+2026-07-23 18:33:39,648 - Conftest - INFO - Test 'test_TC011_patient_logout_via_profile' results logged to Excel database (status=FAILED).
+2026-07-23 18:33:39,648 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:33:41,753 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:33:48,998 - LoginPage - INFO - Running scenario TC007: Successful doctor login
+2026-07-23 18:33:49,035 - Conftest - INFO - Test 'test_login_logout_additional_cases[TC007-Successful doctor login]' results logged to Excel database (status=PASSED).
+2026-07-23 18:33:49,035 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:33:51,136 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:34:03,702 - LoginPage - INFO - Running scenario TC012: Doctor user logout via Sidebar
+2026-07-23 18:34:03,742 - Conftest - INFO - Test 'test_login_logout_additional_cases[TC012-Doctor user logout via Sidebar]' results logged to Excel database (status=PASSED).
+2026-07-23 18:34:03,742 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:34:05,851 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:34:11,631 - LoginPage - INFO - Running scenario TC013: Verify session cache is cleared on logout
+2026-07-23 18:34:11,667 - Conftest - INFO - Test 'test_login_logout_additional_cases[TC013-Verify session cache is cleared on logout]' results logged to Excel database (status=PASSED).
+2026-07-23 18:34:11,667 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:34:13,772 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...
+2026-07-23 18:34:23,356 - LoginPage - INFO - Running scenario TC014: Verify back button is blocked after logout
+2026-07-23 18:34:23,390 - Conftest - INFO - Test 'test_login_logout_additional_cases[TC014-Verify back button is blocked after logout]' results logged to Excel database (status=PASSED).
+2026-07-23 18:34:23,391 - Conftest - INFO - Tearing down Chrome WebDriver instance...
+2026-07-23 18:34:25,492 - Conftest - INFO - Initializing Chrome WebDriver (headless=True)...

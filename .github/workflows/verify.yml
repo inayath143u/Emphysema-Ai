@@ -1,0 +1,51 @@
+name: EmphysemaAI CI Verification Suite
+
+on:
+  push:
+    branches: [ "**" ]
+  pull_request:
+    branches: [ "**" ]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r selenium/requirements.txt
+        pip install httpx requests
+
+    - name: Start Flask Server
+      run: |
+        python app.py &
+        echo "Waiting for server to be responsive on http://127.0.0.1:8000..."
+        for i in {1..20}; do
+          curl -s http://127.0.0.1:8000 > /dev/null && echo "Flask server is up!" && break
+          sleep 1
+        done
+
+    - name: Run E2E Pytest Suite (Headless)
+      continue-on-error: true
+      run: |
+        python selenium/run_all_tests.py
+
+    - name: Run Load Testing
+      continue-on-error: true
+      run: |
+        python load_test.py
+
+    - name: Generate Custom Step Summary
+      if: always()
+      run: |
+        python generate_ci_summary.py

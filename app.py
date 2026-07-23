@@ -22,4 +22,6 @@ def index():
 if __name__ == '__main__':
     # Serve the app locally on port 8000
     print("Starting Flask web server on http://127.0.0.1:8000 ...")
-    app.run(host='127.0.0.1', port=8000, debug=True)
+    debug_mode = os.environ.get("FLASK_DEBUG", "True").lower() in ("true", "1")
+    app.run(host='127.0.0.1', port=8000, debug=debug_mode)
+
