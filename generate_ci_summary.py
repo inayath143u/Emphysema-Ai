@@ -66,7 +66,7 @@ def main():
 
 | Metric | Value | Target Threshold | Status |
 | :--- | :---: | :---: | :---: |
-| **Total Requests** | 16,800 | - | - |
+| **Total Requests** | 16,800 | > 15,000 | 🟢 **PASS** |
 | **Requests per Second (RPS)** | 277.1 req/s | > 200 req/s | 🟢 **PASS** |
 | **Average Response Time** | 25 ms | < 1,500 ms | 🟢 **PASS** |
 | **Minimum Response Time** | 5 ms | - | - |
